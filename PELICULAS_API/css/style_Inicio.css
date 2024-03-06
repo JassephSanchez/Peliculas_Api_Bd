@@ -1,0 +1,134 @@
+ header{
+text-align: center;
+
+}
+
+nav {
+  background: linear-gradient(120deg, #2980b9, #8e44ad);
+  overflow: hidden;
+  text-align: center;
+}
+
+nav a {
+  display: inline-block;
+  color: ;
+  text-align: center;
+  padding: 4px;
+  text-decoration: none;
+}
+
+.entrar {
+  float: right;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+  /* Establece la dirección a fila (por defecto) */
+}
+
+.product-item {
+  width: 250px;
+  height: 500px;
+  background-color:  #orangered;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 10px;
+  overflow: hidden;
+  text-align: center;
+  /* Ajusta esto según tu diseño */
+}
+
+.product-item img {
+  width: 80%;
+  /* Ajusta el ancho de las imágenes al 80% contenedor */
+  height: 200px;
+  /* Establece una altura específica para todas las imágenes */
+  object-fit: cover;
+  /* Cubre el contenedor manteniendo la proporción original */
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.product-item h4,
+.product-item p {
+  margin: 10px;
+}
+
+.product-item:hover {
+  transform: scale(1.05);
+}
+
+h4 {
+  color: #222;
+
+}
+
+p {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+button {
+  background: linear-gradient(120deg, #2980b9, azure, #2980b9);
+  color: black;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.1s;
+  margin-top: auto;
+}
+
+button:hover {
+  background-color: #444;
+}
+
+.carrito {
+  float: right;
+}
+
+.carrito i {
+  height: 100px;
+  width: 100px;
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+  width: 100%;
+  color: white;
+}
+
+section {
+    
+  display:flex; 
+  width: 1450px;
+  height:430px;
+   
+}
+
+section img {
+   width:0px;
+   flex-grow: 1;
+   object-fit: cover;
+   opacity: .8;
+   transition: .5s ease;
+   
+}
+
+section img:hover{
+    cursor:crosshair;
+    width: 300px;
+     opacity: 1;
+     filter:contrast(120%);
+}
+
+imi img:hover{
+   cursor:crosshair;
+    width: 350px;
+     opacity: 1;
+     filter:contrast(120%); 
+     
+}
